@@ -1,0 +1,1 @@
+const a=new URLSearchParams(window.location.search),e=a.get("name");console.log("URL Parameters:",{name:e});const n=document.getElementById("name");n&&e&&(n.textContent=`, ${e}`),e||(console.log("Name parameter is missing"),console.log("Full URL:",window.location.href));
